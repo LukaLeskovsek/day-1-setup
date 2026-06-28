@@ -12,11 +12,11 @@ V **Vercel** in **Supabase** se prijaviš *prek* GitHuba. Vercel pozneje **gleda
 ## Koraki
 1. Preveri prijavo na github.com (uporabniško ime = podjetje ali tvoje ime, z malimi črkami).
 2. Če `gh auth status` še ni urejen, zaženi `gh auth login` (GitHub.com → HTTPS → brskalnik).
-3. **Naredi repo svoj — „Use this template".** Na github.com odpri delavniško predlogo → **„Use this template" → Create a new repository** → nastavi **Private** → poimenuj. To je *tvoja* kopija (ne naša), vanjo lahko pošiljaš spremembe.
+3. **Naredi svoj repo — „Use this template".** Na github.com odpri predlogo → **„Use this template" → Create a new repository** → nastavi **Private** → poimenuj. To je *tvoja* kopija (ne naša), vanjo lahko pošiljaš spremembe.
 4. Kloniraj **svoj** repo in naredi **prvi commit** (npr. majhna sprememba v `README`), nato `push`. Agent ti pokaže ukaze; ti potrdiš.
 5. Na github.com odpri **zavihek Commits** in si oglej svoj commit — to je tvoja zgodovina.
 
-## Trije varni glagoli (uporabljaš jih Dan 2–3)
+## Trije varni glagoli
 - **commit** = shranjevalna točka.
 - **branch + preview** = varno preizkusi tvegano spremembo (dobiš zasebni testni naslov).
 - **revert** = vrni se na zadnjo dobro točko.

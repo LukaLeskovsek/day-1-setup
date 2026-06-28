@@ -10,7 +10,7 @@ Gradiš programsko opremo z agentom in z resničnimi računi. Pet pravil te varu
 - **Zakaj:** ključ v kodi ali v javnem repu lahko kdorkoli prebere — in z njim troši tvoj denar ali bere tvoje podatke. Ključ, enkrat objavljen v git zgodovini, **ostane tam za vedno**.
 - **Kako:** `.gitignore` v predlogi že skrbi, da `.env*` nikoli ne gre v GitHub. Pusti tako. Ključa **ne lepi v ta pogovor** z agentom.
 
-## 2. Spend cap na vsem, kar troši
+## 2. Spend cap na vsem, kar je pay-as-you-go
 `OpenRouter` in `Anthropic` ključi lahko trošijo denar. Vsak dobi **trdo omejitev (`spend cap`)**.
 - **Zakaj:** omejen ključ **ne more** preseči zneska, ki si ga določil — tudi ob napaki ali zlorabi. To je tvoja varnostna mreža za stroške.
 - **Kako:** OpenRouter → ključu nastaviš `hard limit` (npr. €10–20). Anthropic → mesečni cap (npr. €50). Podrobno: [`07-anthropic-in-openrouter.md`](07-anthropic-in-openrouter.md).
