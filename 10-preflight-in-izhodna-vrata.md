@@ -7,9 +7,16 @@
 Ena skripta v eni minuti pove, ali je naprava pripravljena. **Izhodna vrata** so kontrolni seznam, ki ga vsak izpolni, preden odide — da v torek zjutraj ni več nastavitev.
 
 ## Koraki
+Zaženi iz korena tega repozitorija (mapa s skriptama):
 ```bash
-./preflight.sh        # zaženi iz mape s skripto (preflight.sh / preflight.ps1)
+# macOS / Linux
+./preflight.sh
 ```
+```powershell
+# Windows (PowerShell)
+powershell -ExecutionPolicy Bypass -File .\preflight.ps1
+```
+Skripta samo **bere** — ničesar ne namesti in ne spremeni.
 Skripta preveri **8 stvari**: OS, `git`, Node ≥ 20, `bun`, `gh auth`, Claude Code + `claude doctor`, omrežje do github.com / vercel.com / supabase.com / openrouter.ai / api.telegram.org, ter disk/RAM. Zeleni izid je vrstica `PRE-FLIGHT GREEN (8/8)`. **Posnetek zaslona daj v Discord.** Sledi še **ročni seznam** (računi, OpenRouter ključ z omejitvijo, Claude Pro, Telegram `@username`, Obsidian, identitetne datoteke, izbrani primeri).
 
 ## Izhodna vrata Dneva 1 (preveri vse)

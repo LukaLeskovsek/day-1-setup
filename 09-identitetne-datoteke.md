@@ -23,3 +23,6 @@ V identitetne datoteke **ne pišeš skrivnosti** (ključev, gesel) — te datote
 
 ## Končano, ko
 Vse tri datoteke (`PERSON.md`, `COMPANY.md`, `BRAND.md`) so dopolnjene in v tvoji delovni mapi.
+
+**Pomembno**
+Ne pozabi popravit še CLAUDE.md datoteke da vedno črpa iz teh treh datotek.
